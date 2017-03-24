@@ -18,4 +18,4 @@
 ![An example of code synthesis](image/synthesis_example.png)
 
 1. 计算holes的抽象历史
-   $$ smsMgr $$
+  $$ \mathbf{smsMgr} \mapsto \left \{ \left \langle getDefault, ret \right \rangle \cdot \left \langle \mathbf{H_{2}} \right \rangle, \left \langle getDefault, ret \right \rangle\cdot \left \langle divideMsg, 0 \right \rangle\cdot \left \langle \mathbf{H_{1}} \right \rangle \right \} $$
