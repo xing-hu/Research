@@ -18,4 +18,12 @@
 ![An example of code synthesis](image/synthesis_example.png)
 
 1. 计算holes的抽象历史
-  $$ \mathbf{smsMgr} \mapsto \left \{ \left \langle getDefault, ret \right \rangle \cdot \left \langle \mathbf{H_{2}} \right \rangle, \left \langle getDefault, ret \right \rangle\cdot \left \langle divideMsg, 0 \right \rangle\cdot \left \langle \mathbf{H_{1}} \right \rangle \right \} $$
+ ![step 1](image/step1.png)
+2. 计算备选API
+ ![step2](image/step2.png)
+3. 计算最优结果
+
+## Evaluation
+
+该实验抽取了3,090,194个安卓方法调用，实验结果如下：
+![result](image/result.png)
