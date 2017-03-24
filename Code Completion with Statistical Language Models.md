@@ -12,3 +12,10 @@
 ## Overview
 
 ![The architecture of _SLANG_ ](image/architecture.png)
+
+## Synthesis process
+
+![An example of code synthesis](image/synthesis_example.png)
+
+1. 计算holes的抽象历史
+   $$ smsMgr $$
