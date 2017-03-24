@@ -18,6 +18,7 @@
 ![An example of code synthesis](image/synthesis_example.png)
 
 1. 计算holes的抽象历史
+
  ![step 1](image/step1.png)
 2. 计算备选API
  ![step2](image/step2.png)
